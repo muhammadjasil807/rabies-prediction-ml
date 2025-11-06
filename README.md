@@ -48,8 +48,6 @@ rabies-prediction-ml
 Installation and Running
 
 Step 1 — Clone the Repository
-git clone [https://github.com/YOUR-USERNAME/rabies-prediction-ml.git](https://github.com/YOUR-USERNAME/rabies-prediction-ml.git)
-cd rabies-prediction-ml
 
 Step 2 — Install Dependencies
 pip install -r requirements.txt
@@ -63,11 +61,16 @@ ngrok.connect(8501)
 
 
 Model Details
-Model Used: XGBoost Classifier
-Target Variable: rabies_status
-Input Features: animal_alive, animal, PEP_RECOMMENDED, VISIT_STATUS, victim_environment, animal_environment, symptoms
+
+Model Used: 
+XGBoost Classifier
+Target Variable: 
+rabies_status
+Input Features: 
+animal_alive, animal, PEP_RECOMMENDED, VISIT_STATUS, victim_environment, animal_environment, symptoms
 Preprocessing: SimpleImputer + OneHotEncoder
-Evaluation Metrics: Accuracy, Classification Report
+Evaluation Metrics: 
+Accuracy, Classification Report
 
 
 Example Output
@@ -93,11 +96,6 @@ Future Improvements
 * Include bite location and exposure type
 * Deploy on Streamlit Cloud or Hugging Face Spaces
 * Add doctor’s recommendation section
-
-Author
-Muhammad Jasil E.K.
-LinkedIn: [https://linkedin.com/in/YOUR-LINKEDIN](https://linkedin.com/in/YOUR-LINKEDIN)
-GitHub: [https://github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
 
 Conclusion
 This project demonstrates how Machine Learning can assist in healthcare risk assessment using structured data and intelligent modeling.
